@@ -1,4 +1,3 @@
-test -r /project/darkmatters/etc/bashrc && source /project/darkmatters/etc/bashrc
 
 #aliases
 source ~/.bash_aliases

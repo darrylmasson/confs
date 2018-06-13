@@ -10,6 +10,7 @@ filetype indent on
 filetype plugin on
 set ruler
 set list
+set listchars=tab:>·,trail:·
 set shiftwidth=4
 set expandtab
 set tabstop=4
