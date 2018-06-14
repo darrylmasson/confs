@@ -12,6 +12,9 @@ alias tunnel_zinc='ssh -N -f -L localhost:19002:localhost:19002 dmasson@zinc.phy
 alias tunnel_bothe='ssh -N -f -L 127.0.0.1:19004:127.0.0.1:19004 dmasson@bothe.physics.purdue.edu'
 alias xe='ssh -X masson@xecluster.lngs.infn.it'
 
+alias dob='ssh doberman@10.4.73.167'
+alias xebra='ssh benutzer1@10.4.73.148'
+
 alias l='ls -Ahl --color=auto --group-directories-first'
 alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -laX --color=auto --group-directories-first'
@@ -30,3 +33,6 @@ alias chomd='chmod'
 alias scp='scp -p'
 alias g++='g++ -std=c++11'
 
+alias vch='amixer sset Master'
+alias de='setxkbmap de'
+alias us='setxkbmap us'
