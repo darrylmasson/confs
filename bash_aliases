@@ -18,6 +18,7 @@ alias ll='ls -laX --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias sed='sed -r'
+alias diff='diff --color=auto'
 
 alias ..='cd ..'
 alias ce='cd'
