@@ -5,11 +5,8 @@ alias bothe='ssh -X dmasson@bothe.physics.purdue.edu'
 alias tunnel_midway='ssh -N -f -L localhost:19666:localhost:19666 dmasson@midway2-login1.rcc.uchicago.edu'
 alias tunnel_midway2='ssh -N -f -L localhost:19666:localhost:19666 dmasson@midway2-login2.rcc.uchicago.edu'
 alias xe='ssh -X masson@xecluster.lngs.infn.it'
-alias dobby='ssh -X doberman@10.4.73.167'
-alias monster='ssh -X benutzer1@10.4.73.148'
-
-alias dob='ssh doberman@10.4.73.167'
-alias xebra='ssh benutzer1@10.4.73.148'
+alias dobby='ssh -X darryl@10.4.73.167'
+alias monster='ssh -X darryl@10.4.73.148'
 
 alias l='ls -Ahl --color=auto --group-directories-first'
 alias ls='ls --color=auto --group-directories-first'

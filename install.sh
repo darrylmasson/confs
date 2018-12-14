@@ -7,7 +7,7 @@ for rc in *rc; do
     ln -s "${rc}" "../.${rc}"
 done
 
-ln -s bash_aliases ../bash_aliases
+ln -s bash_aliases ../.bash_aliases
 if ![[ -d ../.config/i3 ]]; then
     mkdir ../.config/i3
 elif [[ -e ../.config/i3/config ]]; then
