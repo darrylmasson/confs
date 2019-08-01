@@ -1,7 +1,7 @@
 set autoindent smartindent
 syntax on
 
-set number
+set number relativenumber
 set showmatch
 set nocompatible
 set smarttab
