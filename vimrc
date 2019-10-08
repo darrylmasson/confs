@@ -18,3 +18,9 @@ set hlsearch
 set smartcase
 set showcmd
 set incsearch
+set scrolloff=5
+set backspace=indent,eol,start
+set wrap
+set linebreak
+set autoread
+set magic
