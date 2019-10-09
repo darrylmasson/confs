@@ -1,7 +1,8 @@
 set autoindent smartindent
 syntax on
 
-set number
+set number relativenumber
+set encoding=utf-8
 set showmatch
 set nocompatible
 set smarttab
@@ -16,3 +17,10 @@ set expandtab
 set tabstop=4
 set background=dark
 set hlsearch
+
+set ignorecase
+set smartcase
+
+set splitbelow splitright
+
+map <leader>o :setlocal spell! spelllang=en_us<CR>
