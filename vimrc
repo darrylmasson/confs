@@ -11,16 +11,21 @@ filetype indent on
 filetype plugin on
 set ruler
 set list
-set listchars=tab:>·,trail:·
-set shiftwidth=4
+set listchars=tab:>·,trail:·,extends:>,precedes:<
+set shiftwidth=2
 set expandtab
-set tabstop=4
+set tabstop=8
 set background=dark
 set hlsearch
+set wrap
+set linebreak
+set scrolloff=6
 
 set ignorecase
 set smartcase
+set incsearch
 
 set splitbelow splitright
-
-map <leader>o :setlocal spell! spelllang=en_us<CR>
+set foldmethod=syntax
+set backspace=indent,eol,start
+set showcmd

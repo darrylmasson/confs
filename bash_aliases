@@ -1,6 +1,7 @@
 alias midway='ssh -X dmasson@midway2-login2.rcc.uchicago.edu'
 alias tunnel_midway='ssh -N -f -L localhost:19666:localhost:19666 dmasson@midway2-login2.rcc.uchicago.edu'
-alias cunnilingus='ssh masson@cunn1.lngs.infn.it'
+alias cunnilingus='ssh masson@xenonnt.lngs.infn.it'
+alias gemse='ssh -p 1234 gemse@213.200.239.54'
 
 alias l='ls -Ahl --color=auto --group-directories-first'
 alias ls='ls --color=auto --group-directories-first'
@@ -23,3 +24,5 @@ alias scp='scp -p'
 alias vch='amixer sset Master'
 alias de='setxkbmap de'
 alias us='setxkbmap us'
+
+alias midway_jupyter='ssh dmasson@dali-login1.rcc.uchicago.edu /project2/lgrandi/xenonnt/development/start_jupyter.py --conda_path /dali/lgrandi/strax/miniconda3/bin/conda --env strax'
