@@ -156,5 +156,4 @@ setxkbmap -option caps:none
 #syndaemon -i 10 -d
 
 export LD_LIBRARY_PATH=/usr/lib/:/usr/local/lib/:$LD_LIBRARY_PATH
-export DAQ_API_KEY='A9ya0JuQzkT3hqmU3UPXafGXSMSOw1P0E7YZNlCG'
-export DAQ_API_USER='masson'
+[ -r ~/api_info ] && source ~/api_info
