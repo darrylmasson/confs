@@ -153,3 +153,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+setxkbmap -option caps:none
+#syndaemon -i 10 -d
+
+export LD_LIBRARY_PATH=/usr/lib/:/usr/local/lib/:$LD_LIBRARY_PATH
