@@ -110,7 +110,6 @@ shopt -s expand_aliases
 
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
-setxkbmap -options caps:none
 
 #
 # # ex - archive extractor
@@ -157,3 +156,5 @@ setxkbmap -option caps:none
 #syndaemon -i 10 -d
 
 export LD_LIBRARY_PATH=/usr/lib/:/usr/local/lib/:$LD_LIBRARY_PATH
+export DAQ_API_KEY='A9ya0JuQzkT3hqmU3UPXafGXSMSOw1P0E7YZNlCG'
+export DAQ_API_USER='masson'
