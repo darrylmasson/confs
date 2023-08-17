@@ -9,8 +9,9 @@ set smarttab
 filetype plugin indent on
 set ruler
 set list
-set listchars=tab:>·,trail:·,extends:>,precedes:<
-set shiftwidth=2
+set listchars=tab:>·,trail:·,extends:>,precedes:<,nbsp:+
+set formatoptions+=j
+set shiftwidth=4
 set expandtab
 set tabstop=8
 set background=dark
@@ -31,3 +32,21 @@ set ignorecase
 
 set splitbelow splitright
 set foldmethod=syntax
+
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+"Plug 'w0rp/ale'
+"Plug 'https://bitbucket.org/ns9tks/vim-autocomplpop'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'ervandew/supertab'
+
+call plug#end()
+
+" coc init
+
+inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
+inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+inoremap <silent><expr> <S-@> coc#pum#visible() ? coc#confirm() : "\<S-@>"
+
+let g:coc_global_extensions = ['coc-json', 'coc-cmake', 'coc-clangd', 'coc-git', 'coc-markdown-preview-enhanced', 'coc-sh', 'coc-sql', 'coc-jedi']
