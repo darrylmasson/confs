@@ -25,7 +25,5 @@ alias chomd='chmod'
 alias scp='scp -p'
 
 alias vch='amixer sset Master'
-alias de='setxkbmap de'
 alias us='setxkbmap us'
-
-alias midway_jupyter='ssh dmasson@dali-login1.rcc.uchicago.edu /project2/lgrandi/xenonnt/development/start_jupyter.py --conda_path /dali/lgrandi/strax/miniconda3/bin/conda --env strax'
+alias no='setxkbmap no'

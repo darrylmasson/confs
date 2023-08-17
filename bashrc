@@ -110,6 +110,10 @@ shopt -s expand_aliases
 
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
+<<<<<<< HEAD
+=======
+setxkbmap -option caps:none
+>>>>>>> a2db774 (Bash stuff:)
 
 #
 # # ex - archive extractor
@@ -153,7 +157,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 setxkbmap -option caps:none
-#syndaemon -i 10 -d
 
-export LD_LIBRARY_PATH=/usr/lib/:/usr/local/lib/:$LD_LIBRARY_PATH
-[ -r ~/api_info ] && source ~/api_info
+source "$HOME/.cargo/env"
